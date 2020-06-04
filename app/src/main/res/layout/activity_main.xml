@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    >
+
+<TextView
+    android:id="@+id/app_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:gravity="center_horizontal"
+    android:text="@string/app_name"
+    android:textAppearance="?android:textAppearanceLarge"
+    android:textColor="#4689C8"
+    android:textStyle="bold"
+    android:background="#00ffbf"/>
+
+
+    <TextView
+        style="@style/text"
+        android:layout_below="@id/app_name"
+        android:id="@+id/c_c"
+        />
+
+    <LinearLayout
+        style="@style/ll"
+        android:id="@+id/first"
+        android:layout_below="@id/c_c">
+
+    <TextView
+        style="@style/cgpa"
+        />
+
+    <EditText
+        style="@style/edit1"
+        android:id="@+id/c1"/>
+
+    <TextView
+        style="@style/credits" />
+
+    <EditText
+        style="@style/edit2"
+        android:id="@+id/cr1" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/text"
+        android:layout_below="@id/first"
+        android:id="@+id/c_c1"
+        />
+
+    <LinearLayout
+        style="@style/ll"
+        android:id="@+id/second"
+        android:layout_below="@id/c_c1">
+
+        <TextView
+            style="@style/cgpa"
+            />
+
+        <EditText
+            style="@style/edit1"
+            android:id="@+id/c2"/>
+
+        <TextView
+            style="@style/credits" />
+
+        <EditText
+            style="@style/edit2"
+            android:id="@+id/cr2" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/text"
+        android:layout_below="@id/second"
+        android:id="@+id/c_c2"
+        />
+
+    <LinearLayout
+        style="@style/ll"
+        android:id="@+id/third"
+        android:layout_below="@id/c_c2">
+
+        <TextView
+            style="@style/cgpa"
+            />
+
+        <EditText
+            style="@style/edit1"
+            android:id="@+id/c3"/>
+
+        <TextView
+            style="@style/credits" />
+
+        <EditText
+            style="@style/edit2"
+            android:id="@+id/cr3" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/text"
+        android:layout_below="@id/third"
+        android:id="@+id/c_c3"
+        />
+
+    <LinearLayout
+        style="@style/ll"
+        android:id="@+id/fourth"
+        android:layout_below="@id/c_c3">
+
+        <TextView
+            style="@style/cgpa"
+            />
+
+        <EditText
+            style="@style/edit1"
+            android:id="@+id/c4"/>
+
+        <TextView
+            style="@style/credits" />
+
+        <EditText
+            style="@style/edit2"
+            android:id="@+id/cr4" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/text"
+        android:layout_below="@id/fourth"
+        android:id="@+id/c_c4"
+        />
+
+    <LinearLayout
+        style="@style/ll"
+        android:id="@+id/fifth"
+        android:layout_below="@id/c_c4">
+
+        <TextView
+            style="@style/cgpa"
+            />
+
+        <EditText
+            style="@style/edit1"
+            android:id="@+id/c5" />
+
+        <TextView
+            style="@style/credits" />
+
+        <EditText
+            style="@style/edit2"
+            android:id="@+id/cr5" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/text"
+        android:layout_below="@id/fifth"
+        android:id="@+id/c_c5"
+        />
+
+    <LinearLayout
+        style="@style/ll"
+        android:id="@+id/sixth"
+        android:layout_below="@id/c_c5" >
+
+        <TextView
+            style="@style/cgpa"
+            />
+
+        <EditText
+            style="@style/edit1"
+            android:id="@+id/c6" />
+
+        <TextView
+            style="@style/credits" />
+
+        <EditText
+            style="@style/edit2"
+            android:id="@+id/cr6"/>
+    </LinearLayout>
+
+    <TextView
+        style="@style/text"
+        android:layout_below="@id/sixth"
+        android:id="@+id/c_c6"
+        />
+
+    <LinearLayout
+        style="@style/ll"
+        android:id="@+id/seventh"
+        android:layout_below="@id/c_c6" >
+
+        <TextView
+            style="@style/cgpa"
+            />
+
+        <EditText
+            style="@style/edit1"
+            android:id="@+id/c7"/>
+
+        <TextView
+            style="@style/credits" />
+
+        <EditText
+            style="@style/edit2"
+            android:id="@+id/cr7" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/text"
+        android:layout_below="@id/seventh"
+        android:id="@+id/c_c7"
+        />
+
+    <LinearLayout
+        style="@style/ll"
+        android:id="@+id/eighth"
+        android:layout_below="@id/c_c7" >
+
+        <TextView
+            style="@style/cgpa"
+            />
+
+        <EditText
+            style="@style/edit1"
+            android:id="@+id/c8" />
+
+        <TextView
+            style="@style/credits" />
+
+        <EditText
+            style="@style/edit2"
+            android:id="@+id/cr8"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_below="@id/eighth"
+        android:id="@+id/submitB"/>
+
+
+
+</RelativeLayout>
+
+</ScrollView>
+
+</RelativeLayout>
