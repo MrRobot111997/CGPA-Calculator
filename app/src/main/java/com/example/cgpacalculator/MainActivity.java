@@ -142,6 +142,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 avg = sum/credit ;
 
+                avg = (double) Math.round( avg * 100 )/100 ;
+
                 //New Activity
                 startActivity(new Intent(MainActivity.this,Pop.class));
 
