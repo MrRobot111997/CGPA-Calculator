@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">CGPA Calculator</string>
-    <string name="c_c">Semester : CGPA and Credits:-</string>
+    <string name="c_c">Semester : SGPA and Credits:-</string>
     <string name="cgpa">CGPA :-</string>
     <string name="credit">CREDITS :-</string>
     <string name="submit">Submit</string>

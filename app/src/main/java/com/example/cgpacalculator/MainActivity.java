@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                sum = 0.0 ; avg = 0.0 ; credit= 0.0 ;
+
                 if(c1.getText().toString().equals(""))
                     c[0] = Double.parseDouble(c1.getHint().toString());
                 else
@@ -138,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
 
                 for(int i=0;i<8;i++)
                 {
-                    sum += c[i]*cr[i]; credit += cr[i] ;
+                    sum += ( c[i]*cr[i] ) ; credit += cr[i] ;
                 }
                 avg = sum/credit ;
 

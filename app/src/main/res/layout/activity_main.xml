@@ -257,10 +257,20 @@
         android:layout_below="@id/eighth"
         android:id="@+id/submitB"/>
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitB"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:text="Developed By : Shashwat Shukla (11514)" />
 
 
 </RelativeLayout>
 
 </ScrollView>
+
 
 </RelativeLayout>
